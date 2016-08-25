@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 14.00
+# Visual Studio 2015
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vek", "Vek", "{F0ABA6CD-C2C7-4C04-A9FA-D0B761233DEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestServer", "test\test.vcxproj", "{483541FE-D4E3-44F5-B035-8D785CB84AF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEEFactory", "TEEFactory\TEEFactory.vcxproj", "{254F5165-5743-40F4-A2AB-1A944C2F3F73}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinyXML", "tinyXML\tinyXML.vcxproj", "{C2F769AA-1716-4DB2-8572-8A34E669DE10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TriggerEditor", "TriggerEditor\TriggerEditor.vcxproj", "{BAEF8FD6-2B73-403F-86FC-F85BE19B647B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEENode", "TEENode\TEENode.vcxproj", "{5E87BF0D-78DE-4FBB-83DC-134038021B77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpaceFactory", "SpaceFactory\SpaceFactory.vcxproj", "{A871946C-2C66-4AFB-94C1-674453A2816D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GWWidget", "GWWidget\GWWidget.vcxproj", "{BBA23BF4-3C4A-4C1B-A47D-2023210CEA4C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaBind_Trigger", "Vek\LuaBind\LuaBind_Trigger.vcxproj", "{1297275F-CFDB-4A28-96D3-026A6265EDA4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LuaServer_Trigger", "Vek\LuaServer\RanaSrv_Trigger.vcxproj", "{2CCDD752-20A2-4A39-B4F9-68106E04438E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vek_Trigger", "Vek\Vek\Vek_Trigger.vcxproj", "{83CAD80C-CF2F-4F7E-9429-B0586D51F910}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zoic_Trigger", "Vek\Zoic\Zoic_Trigger.vcxproj", "{F603E6FA-AFD4-4811-9C4D-0B06E3034669}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Trigger_Debug|Win32 = Trigger_Debug|Win32
+		Trigger_Release|Win32 = Trigger_Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{483541FE-D4E3-44F5-B035-8D785CB84AF0}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{483541FE-D4E3-44F5-B035-8D785CB84AF0}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{483541FE-D4E3-44F5-B035-8D785CB84AF0}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{483541FE-D4E3-44F5-B035-8D785CB84AF0}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{254F5165-5743-40F4-A2AB-1A944C2F3F73}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{254F5165-5743-40F4-A2AB-1A944C2F3F73}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{254F5165-5743-40F4-A2AB-1A944C2F3F73}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{254F5165-5743-40F4-A2AB-1A944C2F3F73}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{C2F769AA-1716-4DB2-8572-8A34E669DE10}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{C2F769AA-1716-4DB2-8572-8A34E669DE10}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{C2F769AA-1716-4DB2-8572-8A34E669DE10}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{C2F769AA-1716-4DB2-8572-8A34E669DE10}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{BAEF8FD6-2B73-403F-86FC-F85BE19B647B}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{BAEF8FD6-2B73-403F-86FC-F85BE19B647B}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{BAEF8FD6-2B73-403F-86FC-F85BE19B647B}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{BAEF8FD6-2B73-403F-86FC-F85BE19B647B}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{5E87BF0D-78DE-4FBB-83DC-134038021B77}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{5E87BF0D-78DE-4FBB-83DC-134038021B77}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{5E87BF0D-78DE-4FBB-83DC-134038021B77}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{5E87BF0D-78DE-4FBB-83DC-134038021B77}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{A871946C-2C66-4AFB-94C1-674453A2816D}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{A871946C-2C66-4AFB-94C1-674453A2816D}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{A871946C-2C66-4AFB-94C1-674453A2816D}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{A871946C-2C66-4AFB-94C1-674453A2816D}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{BBA23BF4-3C4A-4C1B-A47D-2023210CEA4C}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{BBA23BF4-3C4A-4C1B-A47D-2023210CEA4C}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{BBA23BF4-3C4A-4C1B-A47D-2023210CEA4C}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{BBA23BF4-3C4A-4C1B-A47D-2023210CEA4C}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+		{F603E6FA-AFD4-4811-9C4D-0B06E3034669}.Trigger_Debug|Win32.ActiveCfg = Trigger_Debug|Win32
+		{F603E6FA-AFD4-4811-9C4D-0B06E3034669}.Trigger_Debug|Win32.Build.0 = Trigger_Debug|Win32
+		{F603E6FA-AFD4-4811-9C4D-0B06E3034669}.Trigger_Release|Win32.ActiveCfg = Trigger_Release|Win32
+		{F603E6FA-AFD4-4811-9C4D-0B06E3034669}.Trigger_Release|Win32.Build.0 = Trigger_Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1297275F-CFDB-4A28-96D3-026A6265EDA4} = {F0ABA6CD-C2C7-4C04-A9FA-D0B761233DEF}
+		{2CCDD752-20A2-4A39-B4F9-68106E04438E} = {F0ABA6CD-C2C7-4C04-A9FA-D0B761233DEF}
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910} = {F0ABA6CD-C2C7-4C04-A9FA-D0B761233DEF}
+		{F603E6FA-AFD4-4811-9C4D-0B06E3034669} = {F0ABA6CD-C2C7-4C04-A9FA-D0B761233DEF}
+	EndGlobalSection
+EndGlobal
