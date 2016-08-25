@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Trigger_Debug|Win32">
+      <Configuration>Trigger_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Trigger_Release|Win32">
+      <Configuration>Trigger_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BAEF8FD6-2B73-403F-86FC-F85BE19B647B}</ProjectGuid>
+    <RootNamespace>TriggerEditor</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">$(SolutionDir)Export\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">$(SolutionDir)Export\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">
+    </LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">true</GenerateManifest>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(VEK_ROOT);../;../TriggerEditor;../boost_1_42_0;App;Space;Layouts;Command;Utility;../TEENode/Tree;LuaCode;Protocol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__WXMSW__;__WXDEBUG__;NOPCH;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;comctl32.lib;rpcrt4.lib;odbc32.lib;wxmsw28ud_core.lib;TEENodeD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../OutData/TriggerEditorD.exe</OutputFile>
+      <AdditionalLibraryDirectories>../boost_1_42_0/stage/lib;../Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../;../TriggerEditor;../boost_1_42_0;App;Space;Layouts;Command;Utility;../TEENode/Tree;LuaCode;Protocol;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;wxmsw28u_core.lib;TEENode.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../OutData/TriggerEditor.exe</OutputFile>
+      <AdditionalLibraryDirectories>../boost_1_42_0/stage/lib;../Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Vek;../;../TriggerEditor;App;Space;UI;Command;Utility;../TEENode/Tree;LuaCode;Protocol;../wxWidgets-3.0.2\include;../wxWidgets-3.0.2\lib\vc_dll\mswud;../vek/LuaBind/lua/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;__WXMSW__;__WXDEBUG__;WXUSINGDLL;NOPCH;TIXML_USE_STL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;comctl32.lib;rpcrt4.lib;odbc32.lib;wxtiffd.lib;wxjpegd.lib;wxpngd.lib;wxbase30ud.lib;wxmsw30ud_core.lib;wxmsw30ud_aui.lib;wxmsw30ud_richtext.lib;TEENodeD.lib;LuaBindD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(SolutionDir)Export\TriggerEditorD.exe</OutputFile>
+      <AdditionalLibraryDirectories>../wxWidgets-3.0.2\lib\vc_dll;../Trigger_Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../Vek;../;../TriggerEditor;App;Space;UI;Command;Utility;../TEENode/Tree;LuaCode;Protocol;../wxWidgets-3.0.2\include;../wxWidgets-3.0.2\lib\vc_dll\mswu;../vek/LuaBind/lua/src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;TIXML_USE_STL;__WXMSW__;WXUSINGDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>winmm.lib;comctl32.lib;rpcrt4.lib;wsock32.lib;odbc32.lib;wxtiff.lib;wxjpeg.lib;wxpng.lib;wxbase30u.lib;wxmsw30u_core.lib;wxmsw30u_richtext.lib;wxmsw30u_adv.lib;wxmsw30u_aui.lib;TEENode.lib;LuaBind.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../Export/TriggerEditor.exe</OutputFile>
+      <AdditionalLibraryDirectories>../wxWidgets-3.0.2\lib\vc_dll;../Trigger_Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Space\SNode.cpp" />
+    <ClCompile Include="Space\SActionRoot.cpp" />
+    <ClCompile Include="Space\SAdjust.cpp" />
+    <ClCompile Include="Space\SBoolean.cpp" />
+    <ClCompile Include="Space\SCondition.cpp" />
+    <ClCompile Include="Space\SEditValue.cpp" />
+    <ClCompile Include="Space\SEvent.cpp" />
+    <ClCompile Include="Space\SForEach.cpp" />
+    <ClCompile Include="Space\SFuncCall.cpp" />
+    <ClCompile Include="Space\SFunction.cpp" />
+    <ClCompile Include="Space\SGroup.cpp" />
+    <ClCompile Include="Space\SMultiIF.cpp" />
+    <ClCompile Include="Space\SpaceManager.cpp" />
+    <ClCompile Include="Space\SParameter.cpp" />
+    <ClCompile Include="Space\SRoot.cpp" />
+    <ClCompile Include="Space\SStaticLabel.cpp" />
+    <ClCompile Include="Space\STrigger.cpp" />
+    <ClCompile Include="Space\SVariable.cpp" />
+    <ClCompile Include="Space\SWhile.cpp" />
+    <ClCompile Include="App\TgrApp.cpp" />
+    <ClCompile Include="App\TgrFrame.cpp" />
+    <ClCompile Include="UI\EditTree.cpp" />
+    <ClCompile Include="UI\GalleryTree.cpp" />
+    <ClCompile Include="UI\GWHyperlink.cpp" />
+    <ClCompile Include="UI\GWTextCtrl.cpp" />
+    <ClCompile Include="UI\OptionEditDlg.cpp" />
+    <ClCompile Include="UI\ParamDlg.cpp" />
+    <ClCompile Include="UI\SelOptionDlg.cpp" />
+    <ClCompile Include="UI\StatementDlg.cpp" />
+    <ClCompile Include="UI\VarDlg.cpp" />
+    <ClCompile Include="Utility\ClipboardUtility.cpp" />
+    <ClCompile Include="Utility\ParameterEditor.cpp" />
+    <ClCompile Include="Utility\Utils.cpp" />
+    <ClCompile Include="Utility\XmlUtility.cpp" />
+    <ClCompile Include="Command\CmdManager.cpp" />
+    <ClCompile Include="Command\Command.cpp" />
+    <ClCompile Include="Command\Commands.cpp" />
+    <ClCompile Include="LuaCode\LuaC.cpp" />
+    <ClCompile Include="LuaCode\LuaCode.cpp" />
+    <ClCompile Include="Protocol\LuaClient.cpp" />
+    <ClCompile Include="Protocol\Process_LuaProtocol.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Command\CancelableWindow.h" />
+    <ClInclude Include="Space\SNode.h" />
+    <ClInclude Include="Space\SActionRoot.h" />
+    <ClInclude Include="Space\SAdjust.h" />
+    <ClInclude Include="Space\SBoolean.h" />
+    <ClInclude Include="Space\SCondition.h" />
+    <ClInclude Include="Space\SEditValue.h" />
+    <ClInclude Include="Space\SEvent.h" />
+    <ClInclude Include="Space\SForEach.h" />
+    <ClInclude Include="Space\SFuncCall.h" />
+    <ClInclude Include="Space\SFunction.h" />
+    <ClInclude Include="Space\SGroup.h" />
+    <ClInclude Include="Space\SMultiIF.h" />
+    <ClInclude Include="Space\SNodeVerify.h" />
+    <ClInclude Include="Space\SpaceManager.h" />
+    <ClInclude Include="Space\SParameter.h" />
+    <ClInclude Include="Space\SRoot.h" />
+    <ClInclude Include="Space\SStaticLabel.h" />
+    <ClInclude Include="Space\STrigger.h" />
+    <ClInclude Include="Space\SVariable.h" />
+    <ClInclude Include="Space\SWhile.h" />
+    <ClInclude Include="App\TgrApp.h" />
+    <ClInclude Include="App\TgrFrame.h" />
+    <ClInclude Include="App\TgrIDs.h" />
+    <ClInclude Include="App\TgrImages.h" />
+    <ClInclude Include="UI\EditTree.h" />
+    <ClInclude Include="UI\GalleryTree.h" />
+    <ClInclude Include="UI\GWHyperlink.h" />
+    <ClInclude Include="UI\GWTextCtrl.h" />
+    <ClInclude Include="UI\GWTreeData.h" />
+    <ClInclude Include="UI\OptionEditDlg.h" />
+    <ClInclude Include="UI\ParamDlg.h" />
+    <ClInclude Include="UI\SelOptionDlg.h" />
+    <ClInclude Include="UI\StatementDlg.h" />
+    <ClInclude Include="UI\UICommon.h" />
+    <ClInclude Include="UI\VarDlg.h" />
+    <ClInclude Include="Utility\EnumType.h" />
+    <ClInclude Include="Utility\ParameterEditor.h" />
+    <ClInclude Include="Utility\Utils.h" />
+    <ClInclude Include="Utility\XmlUtility.h" />
+    <ClInclude Include="Command\CmdManager.h" />
+    <ClInclude Include="Command\Command.h" />
+    <ClInclude Include="Command\Commands.h" />
+    <ClInclude Include="LuaCode\LuaCode.h" />
+    <ClInclude Include="Protocol\LuaClient.h" />
+    <ClInclude Include="Protocol\Process_LuaProtocol.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TEENode\TEENode.vcxproj">
+      <Project>{5e87bf0d-78de-4fbb-83dc-134038021b77}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\tinyXML\tinyXML.vcxproj">
+      <Project>{c2f769aa-1716-4db2-8572-8a34e669de10}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Vek\LuaServer\RanaSrv_Trigger.vcxproj">
+      <Project>{2ccdd752-20a2-4a39-b4f9-68106e04438e}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Vek\Vek\Vek_Trigger.vcxproj">
+      <Project>{83cad80c-cf2f-4f7e-9429-b0586d51f910}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Vek\Zoic\Zoic_Trigger.vcxproj">
+      <Project>{f603e6fa-afd4-4811-9c4d-0b06e3034669}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

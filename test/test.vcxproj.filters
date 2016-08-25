@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\LuaCli">
+      <UniqueIdentifier>{5f6d1722-3a3c-4f62-8abf-c40ea320ae51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LuaCli\Decl">
+      <UniqueIdentifier>{9cab2a43-0b22-4c2d-91c2-db7aaaacbdb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\LuaCli\Impl">
+      <UniqueIdentifier>{55aebb2b-20cd-40c2-beb8-457d24283aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaSrv">
+      <UniqueIdentifier>{b239fa28-38fb-4337-b744-e55a39565253}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Export\CPPCode\RanaRegisterEvent.cpp">
+      <Filter>源文件\LuaCli</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaCli\RanaStrategy.cpp">
+      <Filter>源文件\LuaCli</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaCli\Decl\LuaApi.cpp">
+      <Filter>源文件\LuaCli\Decl</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaCli\Impl\CommonImpl.cpp">
+      <Filter>源文件\LuaCli\Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaSrv\Tick.cpp">
+      <Filter>LuaSrv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Export\CPPCode\RanaBaseTypes.h">
+      <Filter>源文件\LuaCli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Export\CPPCode\RanaEventImpl.h">
+      <Filter>源文件\LuaCli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Export\CPPCode\RanaEventType.h">
+      <Filter>源文件\LuaCli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Export\CPPCode\RanaMsgImpl.h">
+      <Filter>源文件\LuaCli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Export\CPPCode\RanaRegisterEvent.h">
+      <Filter>源文件\LuaCli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Export\CPPCode\RanaSpaceType.h">
+      <Filter>源文件\LuaCli</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaCli\RanaStrategy.h">
+      <Filter>源文件\LuaCli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Export\CPPCode\RanaType.h">
+      <Filter>源文件\LuaCli</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaSrv\Tick.h">
+      <Filter>LuaSrv</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

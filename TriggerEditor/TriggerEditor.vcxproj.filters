@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Space">
+      <UniqueIdentifier>{7e224336-0107-49fd-811c-b10bcd2b5ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{51dd149e-827b-4f03-92aa-04cbf7f37916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{202993e0-3505-4286-9b30-3e8182d81b1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{fa27604c-7e1b-4d6f-8284-0360c90d92f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaCode">
+      <UniqueIdentifier>{fff8ced1-119d-4f76-9607-72c8ec7938cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Protocol">
+      <UniqueIdentifier>{8de8ee0e-13d5-42c8-b758-f30b4eec8f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Space\SAdjust.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SBoolean.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SCondition.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SEditValue.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SEvent.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SForEach.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SGroup.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SMultiIF.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SpaceManager.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SRoot.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SStaticLabel.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\STrigger.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SVariable.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SWhile.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TgrApp.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\TgrFrame.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ClipboardUtility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\XmlUtility.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\CmdManager.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="Command\Commands.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaCode\LuaC.cpp">
+      <Filter>LuaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaCode\LuaCode.cpp">
+      <Filter>LuaCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\LuaClient.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Protocol\Process_LuaProtocol.cpp">
+      <Filter>Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Utils.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SFuncCall.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SActionRoot.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SFunction.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\EditTree.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GalleryTree.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GWHyperlink.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\GWTextCtrl.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\OptionEditDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ParamDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\StatementDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\VarDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\SelOptionDlg.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SNode.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Space\SParameter.cpp">
+      <Filter>Space</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ParameterEditor.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Space\SAdjust.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SBoolean.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SCondition.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SEditValue.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SEvent.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SForEach.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SGroup.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SMultiIF.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SNodeVerify.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SpaceManager.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SRoot.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SStaticLabel.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\STrigger.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SVariable.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SWhile.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TgrApp.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TgrFrame.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TgrIDs.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\TgrImages.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\EnumType.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\XmlUtility.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\CmdManager.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\Commands.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaCode\LuaCode.h">
+      <Filter>LuaCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\LuaClient.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\Process_LuaProtocol.h">
+      <Filter>Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Command\CancelableWindow.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Utils.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SFuncCall.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SActionRoot.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SFunction.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\EditTree.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GalleryTree.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GWHyperlink.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GWTextCtrl.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\GWTreeData.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\OptionEditDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\ParamDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\StatementDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\VarDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\SelOptionDlg.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SNode.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Space\SParameter.h">
+      <Filter>Space</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ParameterEditor.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UICommon.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

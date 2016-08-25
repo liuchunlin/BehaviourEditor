@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vek_vs9.Multi", "Vek_vs9.Multi.vcproj", "{83CAD80C-CF2F-4F7E-9429-B0586D51F910}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910}.Debug|Win32.ActiveCfg = Debug|Win32
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910}.Debug|Win32.Build.0 = Debug|Win32
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910}.Release|Win32.ActiveCfg = Release|Win32
+		{83CAD80C-CF2F-4F7E-9429-B0586D51F910}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

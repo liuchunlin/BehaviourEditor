@@ -1,0 +1,19 @@
+[17:55:31]: load script [cannot open Battle.lua: No such file or directory] failed
+
+[17:55:31]: RanaTimerBank::delTimer : no timer for spaceHandle[0]
+
+[17:55:31]: close Space of Handle[0].
+
+[17:55:31]: load script [cannot open Repetition.lua: No such file or directory] failed
+
+[17:55:31]: RanaTimerBank::delTimer : no timer for spaceHandle[1]
+
+[17:55:31]: close Space of Handle[1].
+
+[17:55:31]: load script [cannot open Scene.lua: No such file or directory] failed
+
+[17:55:31]: RanaTimerBank::delTimer : no timer for spaceHandle[2]
+
+[17:55:31]: close Space of Handle[2].
+
+[17:55:31]: RanaServer start

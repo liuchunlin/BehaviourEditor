@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Trigger_Debug|Win32">
+      <Configuration>Trigger_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Trigger_Release|Win32">
+      <Configuration>Trigger_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F603E6FA-AFD4-4811-9C4D-0B06E3034669}</ProjectGuid>
+    <RootNamespace>Zoic_vs8.MultiThread</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+    <ProjectName>Zoic</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'" />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">
+    <TargetName>$(ProjectName)D</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;UNDEF_THREAD_HACK;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <ForceConformanceInForLoopScope>false</ForceConformanceInForLoopScope>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)ZoicD.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Trigger_Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;UNDEF_THREAD_HACK;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>Default</StructMemberAlignment>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)Zoic.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CheckRunTime.cpp" />
+    <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="CommandFactory.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="DateTime.cpp" />
+    <ClCompile Include="Exception.cpp" />
+    <ClCompile Include="FdSet.cpp" />
+    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="Message.cpp" />
+    <ClCompile Include="MessageImpl.cpp" />
+    <ClCompile Include="MissingFunction.cpp" />
+    <ClCompile Include="NetLog.cpp" />
+    <ClCompile Include="ParameterValue.cpp" />
+    <ClCompile Include="ProtocolVersion.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Selectable.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="Session.cpp" />
+    <ClCompile Include="SessionBank.cpp" />
+    <ClCompile Include="SessionC.cpp" />
+    <ClCompile Include="SessionS.cpp" />
+    <ClCompile Include="Signal.cpp" />
+    <ClCompile Include="SplitString.cpp" />
+    <ClCompile Include="StringCheck.cpp" />
+    <ClCompile Include="SysModuleRegister.cpp" />
+    <ClCompile Include="SysPing.cpp" />
+    <ClCompile Include="TinyBinary.cpp" />
+    <ClCompile Include="VectorMessage.cpp" />
+    <ClCompile Include="WorkFlow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Binary.h" />
+    <ClInclude Include="include\Bond.h" />
+    <ClInclude Include="include\CheckRunTime.h" />
+    <ClInclude Include="include\ClassStorage.h" />
+    <ClInclude Include="include\Clock.h" />
+    <ClInclude Include="include\CommandFactory.h" />
+    <ClInclude Include="include\config-win.h" />
+    <ClInclude Include="include\Config.h" />
+    <ClInclude Include="include\config_flat.h" />
+    <ClInclude Include="include\ConfigImplement.h" />
+    <ClInclude Include="include\ConstCast.h" />
+    <ClInclude Include="include\Counter.h" />
+    <ClInclude Include="include\DateTime.h" />
+    <ClInclude Include="include\Exception.h" />
+    <ClInclude Include="include\FdSet.h" />
+    <ClInclude Include="include\FixArray.h" />
+    <ClInclude Include="include\for_each.h" />
+    <ClInclude Include="include\Log.h" />
+    <ClInclude Include="include\Message.h" />
+    <ClInclude Include="include\MessageImpl.h" />
+    <ClInclude Include="include\MissingFunction.h" />
+    <ClInclude Include="include\NetLog.h" />
+    <ClInclude Include="include\NoCopy.h" />
+    <ClInclude Include="include\OutOfBoundException.h" />
+    <ClInclude Include="include\ParameterValue.h" />
+    <ClInclude Include="include\ProtocolVersion.h" />
+    <ClInclude Include="include\ProtocolVersionException.h" />
+    <ClInclude Include="include\QueryDefine.h" />
+    <ClInclude Include="include\Random.h" />
+    <ClInclude Include="include\RetFalse.h" />
+    <ClInclude Include="include\Selectable.h" />
+    <ClInclude Include="include\Selector.h" />
+    <ClInclude Include="include\Session.h" />
+    <ClInclude Include="include\SessionBank.h" />
+    <ClInclude Include="include\SessionC.h" />
+    <ClInclude Include="include\SessionCommand.h" />
+    <ClInclude Include="include\SessionError.h" />
+    <ClInclude Include="include\SessionS.h" />
+    <ClInclude Include="include\Signal.h" />
+    <ClInclude Include="include\Singleton.h" />
+    <ClInclude Include="include\SplitString.h" />
+    <ClInclude Include="include\StrCharArray.h" />
+    <ClInclude Include="include\String.h" />
+    <ClInclude Include="include\StringCheck.h" />
+    <ClInclude Include="include\SysModuleRegister.h" />
+    <ClInclude Include="include\SysPing.h" />
+    <ClInclude Include="include\Types.h" />
+    <ClInclude Include="include\UnhandledMessageException.h" />
+    <ClInclude Include="include\VarArray.h" />
+    <ClInclude Include="include\VectorMessage.h" />
+    <ClInclude Include="include\WorkFlow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

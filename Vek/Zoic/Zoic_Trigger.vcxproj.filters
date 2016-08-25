@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CheckRunTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Clock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DateTime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FdSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Message.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MissingFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NetLog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ParameterValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtocolVersion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Selectable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionBank.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SessionS.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Signal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SplitString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="StringCheck.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SysModuleRegister.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SysPing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyBinary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkFlow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Binary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Bond.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CheckRunTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ClassStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Clock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CommandFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config-win.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\config_flat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConfigImplement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConstCast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Counter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DateTime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FdSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FixArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\for_each.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MessageImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MissingFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NetLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\NoCopy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OutOfBoundException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ParameterValue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProtocolVersion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ProtocolVersionException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\QueryDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Random.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RetFalse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Selectable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Selector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Session.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SessionBank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SessionC.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SessionCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SessionError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SessionS.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Signal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Singleton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SplitString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StrCharArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\String.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StringCheck.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SysModuleRegister.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SysPing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UnhandledMessageException.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VarArray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VectorMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WorkFlow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

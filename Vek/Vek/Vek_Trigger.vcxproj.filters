@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{9a433353-33f8-4bb4-9a18-c4ca7d75acb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="base\Exception.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Service.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Timer.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\TimerBank.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="stream\Stream.cpp">
+      <Filter>Stream</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base\Exception.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Module.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Service.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\Singleton.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Timer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\TimerBank.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Types.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="stream\Stream.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream\TableReader.h">
+      <Filter>Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Tree.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\ObjLink.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stream\Stream.inl">
+      <Filter>Stream</Filter>
+    </None>
+  </ItemGroup>
+</Project>

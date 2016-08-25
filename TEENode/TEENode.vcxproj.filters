@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tree\Adjust.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Condition.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Event.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\EventCode.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Function.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Include.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Label.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\NodeBase.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\NodeFactory.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Option.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Parameter.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Space.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\Tag.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree\TEEManager.cpp">
+      <Filter>Tree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tree\Adjust.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Condition.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Event.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\EventCode.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Function.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Include.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Label.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\NodeBase.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\NodeFactory.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\NodeVerify.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Option.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Parameter.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Space.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\Tag.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree\TEEManager.h">
+      <Filter>Tree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
